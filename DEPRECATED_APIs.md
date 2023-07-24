@@ -158,7 +158,8 @@
 | @aws-cdk/aws-ec2 | SecurityGroup.​securityGroupName | returns the security group ID, rather than the name. |
 | @aws-cdk/aws-ec2 | SubnetSelection.​subnetName | Use `subnetGroupName` instead |
 | @aws-cdk/aws-ec2 | SubnetType.​ISOLATED | use `SubnetType.PRIVATE_ISOLATED` |
-| @aws-cdk/aws-ec2 | SubnetType.​PRIVATE | use `PRIVATE_WITH_NAT` |
+| @aws-cdk/aws-ec2 | SubnetType.PRIVATE_WITH_NAT | use `PRIVATE_WITH_EGRESS` |
+| @aws-cdk/aws-ec2 | SubnetType.​PRIVATE | use `PRIVATE_WITH_EGRESS` |
 | @aws-cdk/aws-ec2 | Vpc.​natDependencies | This value is no longer used. |
 | @aws-cdk/aws-ec2 | Vpc.​addDynamoDbEndpoint() | use `addGatewayEndpoint()` instead |
 | @aws-cdk/aws-ec2 | Vpc.​addS3Endpoint() | use `addGatewayEndpoint()` instead |

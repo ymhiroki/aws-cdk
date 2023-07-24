@@ -500,6 +500,7 @@ aws-cdk-lib.aws_ec2.SecurityGroup#fromLookup
 aws-cdk-lib.aws_ec2.SecurityGroup#securityGroupName
 aws-cdk-lib.aws_ec2.SubnetSelection#subnetName
 aws-cdk-lib.aws_ec2.SubnetType#ISOLATED
+aws-cdk-lib.aws_ec2.SubnetType#PRIVATE_WITH_NAT
 aws-cdk-lib.aws_ec2.SubnetType#PRIVATE
 aws-cdk-lib.aws_ec2.Vpc#addDynamoDbEndpoint
 aws-cdk-lib.aws_ec2.Vpc#addS3Endpoint
